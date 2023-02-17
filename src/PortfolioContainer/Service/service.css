@@ -1,0 +1,20 @@
+.ServicePage{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 850px){
+    .ServicePage {
+        margin-top: -70vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .ServicePage {
+        margin-top: -90vw;
+    } 
+}
+@media only screen and (max-width: 400px) {
+    .ServicePage {
+        margin-top: -110vw;
+    } 
+}

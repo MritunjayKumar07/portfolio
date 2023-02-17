@@ -1,0 +1,226 @@
+:root {
+    --background: #181823;
+    --maincolor: #FF8B13;
+    --maincolor1: #FF577F;
+    --maincolor2: #FFCACA;
+}
+
+.Header {
+    background: #181823;
+}
+
+.Profile {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 80vh;
+}
+
+.Profile .Profile-content {
+    display: inline;
+    margin-top: 10%;
+    position: relative;
+    justify-content: center;
+    place-items: center;
+}
+
+.Profile .Profile-content h1 {
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    color: var(--maincolor1);
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.Profile .Profile-content h1:before {
+    position: absolute;
+    content: '';
+    right: 0%;
+    top: 0%;
+    transform: translate(25px, -15px);
+    font-family: 'Bree Serif', serif;
+    display: inline-block;
+    background: #ffe6e6;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    animation: chan-sh 6s ease infinite;
+
+}
+
+/* .Profile .Profile-content p{
+    width: 80%;
+    padding: 0;
+    line-height: 7px;
+} */
+.Profile .Profile-content p {
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    font-size: 22px;
+    color: var(--maincolor2);
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.Profile .Profile-conten>p {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.Profile-container-btn {
+    transform: translateY(0px);
+    transition: 0.3s linear;
+    background: var(--maincolor2);
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid var(--maincolor1);
+    color: #eee;
+    padding: 0;
+    margin: 0;
+}
+
+.Profile-container-btn:hover {
+    transform: translateY(-6px);
+    background: var(--maincolor1);
+}
+
+.Profile-container-btn span {
+    font-family: sans-serif;
+    transition: transform 0.3s;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 0;
+
+}
+
+.Profile-container-btn .resume,
+.shopping-cart {
+    border: 0;
+    margin: 0;
+}
+
+.Profile-container-btn .resume {
+    transform: translateX(-10%);
+    padding-right: 15px;
+}
+
+.Profile-container-btn .shopping-cart {
+    transform: translateX(-100%);
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.Profile-container-btn .buy {
+    z-index: 3;
+    font-weight: bolder;
+}
+
+.Profile-container-btn:hover .resume {
+    transform: translateX(-110%);
+}
+
+.Profile-container-btn:hover .shopping-cart {
+    transform: translateX(0%);
+}
+
+.Profile .Profile-content ul {
+    display: flex;
+}
+
+.Profile .Profile-content ul li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.Profile .Profile-content ul li a i {
+    color: var(--maincolor2);
+    transition: 1s all;
+}
+
+.Profile .Profile-content ul li a i:hover {
+    scale: 1.5;
+    color: var(--maincolor1);
+}
+
+.Profile img {
+    width: 40%;
+    border-radius: 250px;
+    float: "right";
+    transition: 1s all;
+}
+
+.Profile img:hover {
+    scale: 1.1;
+}
+
+.Profile .ProfileImage-mob {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .Profile {
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .Profile {
+        display: inline;
+    }
+
+    .Profile .Profile-content h1 {
+        padding-top: 5vh;
+        padding-left: 5vw;
+        font-size: 28px;
+    }
+
+    .Profile .Profile-content p {
+        padding-left: 15vw;
+        margin-right: 5vw;
+    }
+
+    .Profile-container-btn {
+        margin-left: 15vw !important;
+    }
+
+    .Profile .Profile-content ul {
+        margin-left: 15vw !important;
+    }
+
+    .Profile img {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        place-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Profile .ProfileImage {
+        display: none;
+    }
+
+    .Profile .ProfileImage-mob {
+        display: inline;
+    }
+}
+

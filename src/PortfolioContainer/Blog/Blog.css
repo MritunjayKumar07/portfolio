@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+.Blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  background-attachment: fixed;
+}
+.Blog .container {
+  background: none;
+  position: relative;
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Blog .container .card {
+  position: relative;
+  width: 300px;
+  height: 420px;
+  background: #fff;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.Blog .container:hover .card {
+  filter: blur(0px);
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+.Blog .container .card:hover {
+  filter: blur(0px);
+  transform: scale(1.1);
+  opacity: 1;
+}
+.Blog .container .card .circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: circle(180px at center 0);
+  text-align: center;
+}
+.Blog .container .card .circle h2 {
+  color: #fff;
+  font-size: 4.5em;
+  padding: 30px 0;
+}
+.Blog .container .card .content {
+  background: #fff;
+  position: absolute;
+  bottom: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.Blog .container .card .content p {
+  background: #fff;
+  color: #666;
+}
+.Blog .container .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+/* .Blog .container .card:nth-child(1) .circle,
+.Blog .container .card:nth-child(1) .content a {
+  background: #ffaf00;
+}
+.Blog .container .card:nth-child(2) .circle,
+.Blog .container .card:nth-child(2) .content a {
+  background: #da2268;
+}
+.Blog .container .card:nth-child(3) .circle,
+.Blog .container .card:nth-child(3) .content a {
+  background: #bb02ff;
+}
+.Blog .container .card:nth-child(4) .circle,
+.Blog .container .card:nth-child(4) .content a {
+  background: #02bcff;
+}
+.Blog .container .card:nth-child(5) .circle,
+.Blog .container .card:nth-child(5) .content a {
+  background: #ff0202;
+}
+.Blog .container .card:nth-child(6) .circle,
+.Blog .container .card:nth-child(6) .content a {
+  background: #2cff02;
+}
+.Blog .container .card:nth-child(7) .circle,
+.Blog .container .card:nth-child(7) .content a {
+  background: #023dff;
+} */

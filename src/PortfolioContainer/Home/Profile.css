@@ -19,7 +19,7 @@
 .Profile .Profile-content {
     display: inline;
     margin-top: 10%;
-    position: relative;
+    /* position: relative; */
     justify-content: center;
     place-items: center;
 }
@@ -27,7 +27,7 @@
 .Profile .Profile-content h1 {
     font-family: 'Bebas Neue', cursive;
     display: inline-block;
-    position: relative;
+    /* position: relative; */
     font-size: 30px;
     color: var(--maincolor1);
     margin: 0;
@@ -51,15 +51,10 @@
 
 }
 
-/* .Profile .Profile-content p{
-    width: 80%;
-    padding: 0;
-    line-height: 7px;
-} */
 .Profile .Profile-content p {
     width: 80%;
     display: inline-block;
-    position: relative;
+    /* position: relative; */
     padding: 0;
     font-size: 22px;
     color: var(--maincolor2);
@@ -73,13 +68,12 @@
     font-size: 18px;
 }
 
-
 .Profile-container-btn {
-    transform: translateY(0px);
+    /* transform: translateY(0px); */
     transition: 0.3s linear;
     background: var(--maincolor2);
     border-radius: 12px;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
     cursor: pointer;
     outline: none;
@@ -172,7 +166,6 @@
     display: none;
 }
 
-
 @media only screen and (max-width: 1000px) {
     .Profile {
         margin-left: 40px;
@@ -206,11 +199,16 @@
     }
 
     .Profile img {
-        display: flex;
-        position: absolute;
-        justify-content: center;
-        place-items: center;
-        text-align: center;
+        width: 100vw;
+        margin-right: 12vw;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+
+    .Profile img {
+        margin-right: 5vw;
+        margin-bottom: -70vh;
     }
 }
 
@@ -222,5 +220,17 @@
     .Profile .ProfileImage-mob {
         display: inline;
     }
+
+    .Profile img {
+        margin-right: -12vw;
+        margin-bottom: -100vh;
+    }
 }
 
+@media only screen and (max-width: 400px) {
+    .Profile img {
+        width: 100vw;
+        margin-bottom: -90vh;
+    }
+
+}

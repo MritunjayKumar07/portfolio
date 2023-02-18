@@ -8,7 +8,9 @@ function Header() {
     return (
         <div className='MO-1'>
             <div className='MenuOne'>
-                <img style={{ width: "180px", height: "70px", marginLeft: "20px", marginTop: "30px" }} src={Logo} alt="Logo" />
+                <Link to="/">
+                    <img style={{ width: "180px", height: "70px", marginLeft: "20px", marginTop: "30px" }} src={Logo} alt="Logo" />
+                </Link>
                 <ul class="menu-bar">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/service">Service</Link></li>
@@ -23,11 +25,11 @@ function Header() {
                 <label for="active" class="menu-btn"><span></span></label>
                 <div class="wrapper">
                     <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/service">Service</Link></li>
-                    <li><Link to="/blog">Blog</Link></li>
-                    <li><Link to="/about">AboutMe</Link></li>
-                    <li><Link to="./contact">ContactMe</Link></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/service">Service</Link></li>
+                        <li><Link to="/blog">Blog</Link></li>
+                        <li><Link to="/about">AboutMe</Link></li>
+                        <li><Link to="./contact">ContactMe</Link></li>
                     </ul>
                 </div>
             </div>

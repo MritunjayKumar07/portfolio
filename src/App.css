@@ -11,4 +11,5 @@
   margin: 0;
   padding: 0;
   background: #181823;
+  z-index: auto;
 };

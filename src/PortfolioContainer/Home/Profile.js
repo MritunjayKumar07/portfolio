@@ -26,7 +26,7 @@ export default function Profile() {
                         <li><a href='https://twitter.com/Promocrux' target="_blank"><i class='bx bxl-twitter'></i></a></li>
                         <li><a href='https://www.instagram.com/promocrux/' target="_blank"><i class='bx bxl-instagram-alt' ></i></a></li>
                         <li><a href='https://www.youtube.com/channel/UCzGDWcS-LAn-2eqnjp6BvqQ' target="_blank"><i class='bx bxl-youtube'></i></a></li>
-                        <li><a href='https://github.com/MritunjayKumarStudent' target="_blank"><i class='bx bxl-github'></i></a></li>
+                        <li><a href='https://github.com/MritunjayKumar07' target="_blank"><i class='bx bxl-github'></i></a></li>
                         <li><a href='https://www.linkedin.com/in/promocrux-84a81225b/' target="_blank"><i class='bx bxl-linkedin-square' ></i></a></li>
                     </ul>
                 </div>

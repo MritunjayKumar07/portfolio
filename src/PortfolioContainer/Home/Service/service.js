@@ -40,7 +40,7 @@ const Service = () => {
                             </ul>
                             <div className='img'>
                                 <img style={{ width: "300px", height: "300px", borderRadius: "25px" }} src={img?img:"https://user-images.githubusercontent.com/117168137/219394987-02b246f9-37f8-4e09-b463-12bba1df430e.png"} alt='MyService' />
-                                <a href={link?link:"https://github.com/MritunjayKumarStudent"} target="_blank">See This</a>
+                                <a href={link?link:"https://github.com/MritunjayKumar07"} target="_blank">See This</a>
                             </div>
                         </div>
                     </div>
